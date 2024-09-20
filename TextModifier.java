@@ -4,11 +4,11 @@ public class TextModifier {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите текст: ");
+  
         String Text = scanner.nextLine();
         int sum = 0;
 
-        // Алгоритм изменения текста
+        // ГЂГ«ГЈГ®Г°ГЁГІГ¬ ГЁГ§Г¬ГҐГ­ГҐГ­ГЁГї ГІГҐГЄГ±ГІГ 
         StringBuilder modifiedText = new StringBuilder();
         for (int i = 0; i < Text.length()-1; i++) {
             char currentChar = Text.charAt(i);
@@ -53,7 +53,7 @@ public class TextModifier {
         modifiedText.append(sum);
 
 
-        System.out.println("Измененный текст: " + modifiedText);
+        System.out.println(modifiedText);
     }
 }
 
