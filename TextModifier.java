@@ -8,7 +8,7 @@ public class TextModifier {
         String Text = scanner.nextLine();
         int sum = 0;
 
-        // Àëãîðèòì èçìåíåíèÿ òåêñòà
+     
         StringBuilder modifiedText = new StringBuilder();
         for (int i = 0; i < Text.length()-1; i++) {
             char currentChar = Text.charAt(i);
